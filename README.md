@@ -1,7 +1,14 @@
-# Testing_Planning_Maintenance
-Testing, Planning, Maintenance, and Layers Exercise
+#Testing, Planning, Maintenance, and Layers Exercise
 
 https://trello.com/b/Sr1fLIpp/employee-manager-test-plan
+
+## Test Summary:
+
+The app is greatly improved over the previous version. ID discrepancy has been resolved. Field length restrictions and content restrictions have been implemented. Title field still needs length restriction, see below. Overall quite a bit of work has been done, the app is a lot closer to completion.
+
+1. Entering too long a string in the Name field triggers warnings for the Name field and the Title field at the same time
+
+2. Entering too long a string in the Title field does not trigger any warning. Invalid entries are accepted
 
 Boundary Value Analysis: Phone number
 
@@ -10,5 +17,5 @@ Boundary Value Analysis: Phone number
 |---|---|---|---|
 |0 to 9 digits |9 digits |10 digits |11 digits|
 
-[State Transition Diagram](https://github.com/atchafalaya/Testing_Planning_Maintenance/blob/main/State_Transition_Diagram.png)
+![State Transition Diagram](https://github.com/atchafalaya/Testing_Planning_Maintenance/blob/main/State_Transition_Diagram.png)
 
