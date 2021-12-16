@@ -10,5 +10,5 @@ Boundary Value Analysis: Phone number
 |---|---|---|---|
 |0 to 9 digits |9 digits |10 digits |11 digits|
 
-[State Transition Diagram](State_Transition_Diagram.png)
+[State Transition Diagram](https://github.com/atchafalaya/Testing_Planning_Maintenance/blob/main/State_Transition_Diagram.png)
 
